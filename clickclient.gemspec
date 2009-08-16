@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = "clickclient"
-  spec.version = "0.0.2"
+  spec.version = "0.0.3"
   spec.summary = "CLICK Securities Web Service Client For Ruby."
   spec.author = "Masaya Yamauchi"
   spec.email = "y-masaya@red.hot.co.jp"
@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
     "README.txt"
   ]
   spec.required_ruby_version = '>= 0'
-  spec.add_dependency('httpclient', '>= 2.1.2')
+  spec.add_dependency('httpclient', '>= 2.1.5')
   spec.require_paths = ["lib"]
   spec.test_files = ["test/test_base.rb", "test/test_helper.rb"]
 end
